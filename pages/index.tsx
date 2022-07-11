@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 export default function Home() {
-  const [swpeople, setSwpeople] = useState([]);
+  const [swpeople, setSwpeople] = useState<any[]>([]);
 
   useEffect(() => {
     fetch("https://swapi.dev/api/people/")
