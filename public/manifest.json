@@ -3,7 +3,7 @@
   "short_name": "Next PWA",
   "theme_color": "#ffffff00",
   "background_color": "#ffffff",
-  "display": "minimal-ui",
+  "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/",
